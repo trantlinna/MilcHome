@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
+
 :root {
   --paper-bg: #f5f2e9;
   --paper-edge: #e0dbc9;
@@ -7,6 +9,7 @@
   --line: #d4cfbd;
   --radius-lg: 18px;
   --radius-md: 10px;
+  --font-sans: 'Comfortaa', sans-serif;
 }
 
 /* Reset cơ bản */
@@ -19,10 +22,7 @@
 body {
   margin: 0;
   background: #d2c9b8;
-  font-family: "Comfortaa", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  font-family: var(--font-sans);
   color: var(--ink);
   -webkit-font-smoothing: antialiased;
 }
@@ -95,7 +95,7 @@ a {
 }
 
 .section-eyebrow {
-  font-family: "DM Mono", monospace;
+  font-family: var(--font-sans);
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -123,7 +123,7 @@ a {
 }
 
 .logo {
-  font-family: "DM Mono", monospace;
+  font-family: var(--font-sans);
   font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -171,7 +171,7 @@ a {
 }
 
 .eyebrow {
-  font-family: "DM Mono", monospace;
+  font-family: var(--font-sans);
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.13em;
@@ -194,7 +194,7 @@ a {
 
 /* Typewriter cảm giác */
 .typewriter {
-  font-family: "DM Mono", monospace;
+  font-family: var(--font-sans);
   background-image: linear-gradient(to bottom, transparent 95%, rgba(0,0,0,0.12) 95%);
   background-size: 100% 1.6em;
   padding-bottom: 4px;
@@ -208,7 +208,7 @@ a {
 }
 
 .mono-line {
-  font-family: "DM Mono", monospace;
+  font-family: var(--font-sans);
   font-size: 12px;
   color: var(--ink-soft);
 }
@@ -228,7 +228,7 @@ a {
   border: 1px solid var(--ink-soft);
   background: transparent;
   cursor: pointer;
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--font-sans);
 }
 
 .btn.primary {
@@ -345,7 +345,7 @@ a {
 }
 
 .contact-list span {
-  font-family: "DM Mono", monospace;
+  font-family: var(--font-sans);
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -391,7 +391,7 @@ textarea {
   border: 1px solid rgba(0,0,0,0.08);
   padding: 7px 9px;
   font-size: 13px;
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--font-sans);
   background: #fdfbf5;
   color: var(--ink);
 }
