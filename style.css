@@ -19,7 +19,13 @@
 body {
   margin: 0;
   background: #d2c9b8;
-  font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  
+comfortaa-<uniquifier> {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
   color: var(--ink);
   -webkit-font-smoothing: antialiased;
 }
